@@ -1,0 +1,5 @@
+: each line contains three words: query word, positive word, and negative word.
+: The distance between the first and second word has to be smaller that the distance between the first and third words.
+يوسف امين راديو
+غدا دابا علاش
+نسامح نغفر نقدر
