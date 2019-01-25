@@ -7,6 +7,7 @@ This project has been started by:
 - El Mahdi El Mhamdi.
 - Mouktafi Chemaou El Fihri.
 - Driss Lahlou.
+- Jamal Habibi Akka.
 
 #### Sponsors:
 
