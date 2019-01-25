@@ -1,4 +1,6 @@
 # The-Moroccan-Darija-Word2Vec-Project
+(Lire ce document en [français](https://github.com/KLiFF2606/The-Moroccan-Darija-Word2Vec-Project/blob/master/README.fr.md))
+
 The Moroccan Darija Word Embedding project is an open-source project that aims to create a large word embedding database for Moroccan Darija.
 
 (You don't know what is a word embedding database? No problem you can find all you need here: https://en.wikipedia.org/wiki/Word_embedding)
