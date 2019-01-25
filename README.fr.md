@@ -1,4 +1,5 @@
-# Le-projet-marocain-Darija-Word2Vec
+# Le-projet-marocain-Darija-Word2Vec 
+(This read me file in [english](https://github.com/KLiFF2606/The-Moroccan-Darija-Word2Vec-Project/blob/master/README.md))
 
 Le projet marocain Darija Word Embedding est un projet open-source qui vise à créer une base de données volumineuse de plongement de mots pour la Darija marocaine.
 
@@ -47,5 +48,5 @@ Avec de grandes quantités de données, nous aurons peut-être besoin d'aide pou
 - Driss Lahlou.
 - Jamal Habibi Akka.
 
-# PArtenaires:
+# Partenaires:
 Nous n'avons pas encore de partenaires. Vous pouvez être le premier.
