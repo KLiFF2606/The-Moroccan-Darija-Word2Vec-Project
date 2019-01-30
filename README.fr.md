@@ -43,7 +43,6 @@ Avec de grandes quantités de données, nous aurons peut-être besoin d'aide pou
 
 # Crédits:
 - Khalid Khalifa.
-- El Mahdi El Mhamdi.
 - Mouktafi Chemaou El Fihri.
 - Driss Lahlou.
 - Jamal Habibi Akka.
