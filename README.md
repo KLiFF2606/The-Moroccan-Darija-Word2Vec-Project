@@ -35,7 +35,6 @@ With large amounts of data, we may need help on curating it. Sometimes the task 
 ## Credits:
 This project was started by:
 - Khalid Khalifa.
-- El Mahdi El Mhamdi.
 - Mouktafi Chemaou El Fihri.
 - Driss Lahlou.
 - Jamal Habibi Akka.
