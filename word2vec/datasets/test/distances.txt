@@ -1,0 +1,12 @@
+: each line contains three words: negative word <space> positive word <space> query word.
+: The distance between the word to the right and the second word has to be smaller than
+: the distance between the word to the right and the word to the left.
+يوسف امين راديو
+غدا دابا علاش
+نسامح نغفر نقدر
+مشيت كليت فريت
+مشيت جريت فريت
+مشيت جريت قريت
+بلاد المغرب طوموبيل
+محمد فؤاد فريدة
+كليت مشيت فريت
