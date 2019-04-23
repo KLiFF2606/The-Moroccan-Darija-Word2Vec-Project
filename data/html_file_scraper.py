@@ -139,70 +139,18 @@ def concatenate_files(folders):
     not_large_sentences_file.close()
 
 
-def _9issas_1_selector(html):
+def _selector(html):
     thepost = html.find_all('div', attrs={'dir': 'rtl'})
     return thepost[0].find_all('div')
 
 
-def _9issas_2_selector(html):
-    post_div = html.find_all('div', attrs={'class': 'post-body entry-content'})
-    return post_div[0].find_all('span', attrs={'style': 'font-size: large;'})
-
-
-def _9issas_3_selector(html):
-    post_div = html.find_all('div', attrs={'class': 'post-body entry-content'})
-    return post_div[0].find_all('span', attrs={})
-
-
 if __name__ == '__main__':
-    # 9issas 1
-    folders = []
-    folders = folders + [
-        '9issas/2018/01',
-        '9issas/2018/02',
-        '9issas/2018/03',
-        '9issas/2018/04',
-        '9issas/2018/05',
-        '9issas/2018/06',
-        '9issas/2018/07',
-        '9issas/2018/08',
-        '9issas/2018/09',
-        '9issas/2018/10',
-        '9issas/2018/11',
-        '9issas/2018/12'
-    ]
-    folders = folders + ['9issas/2019/01']
-    parse_all_files(folders, lambda s: _9issas_1_selector(s), overwrite=False)
-
-    # 9issas 2
-    folders = ['9issas_2/2016/02', '9issas_2/2016/03', '9issas_2/2016/04']
-    parse_all_files(folders, lambda s: _9issas_2_selector(s), overwrite=False)
-
-    # 9issas 3
-    folders = ['9issas_3/2017/10', '9issas_3/2018/02', '9issas_3/2018/06', '9issas_3/2018/07', '9issas_3/2018/08', '9issas_3/2018/09']
-    parse_all_files(folders, lambda s: _9issas_3_selector(s), overwrite=False)
-
+    # parse files.
+    folders = ['some_html_file']
+    parse_all_files(folders, lambda s: _selector(s), overwrite=False)
 
     # merge all files
-    all_folders = ['9issas/2017/04', '9issas/2017/07', '9issas/2017/09',
-               '9issas/2017/10', '9issas/2017/11', '9issas/2017/12']
-    all_folders = all_folders + [
-        '9issas/2018/01',
-        '9issas/2018/02',
-        '9issas/2018/03',
-        '9issas/2018/04',
-        '9issas/2018/05',
-        '9issas/2018/06',
-        '9issas/2018/07',
-        '9issas/2018/08',
-        '9issas/2018/09',
-        '9issas/2018/10',
-        '9issas/2018/11',
-        '9issas/2018/12'
-    ]
-    all_folders = all_folders + ['9issas/2019/01']
-    all_folders = all_folders + ['9issas_2/2016/02', '9issas_2/2016/03', '9issas_2/2016/04']
-    all_folders = all_folders + ['9issas_3/2017/10', '9issas_3/2018/02', '9issas_3/2018/06', '9issas_3/2018/07', '9issas_3/2018/08', '9issas_3/2018/09']
+    all_folders = ['some_output_folder']
+
     # for folder in all_folders:
     concatenate_files(all_folders)
-    # parse_with_selector("./raw_data/html/in/9issas_2/2016/02/", "blog-post_17.html", lambda s: _9issas_2_selector(s))
